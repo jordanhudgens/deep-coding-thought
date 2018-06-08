@@ -25,3 +25,4 @@ group :development do
 end
 
 gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'slim-rails', '~> 3.1', '>= 3.1.3'
