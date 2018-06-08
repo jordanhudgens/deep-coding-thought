@@ -26,3 +26,6 @@ end
 
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'slim-rails', '~> 3.1', '>= 3.1.3'
+gem 'redcarpet', '~> 3.4'
+gem 'coderay', '~> 1.1', '>= 1.1.2'
+gem 'friendly_id', '~> 5.2', '>= 5.2.4'
