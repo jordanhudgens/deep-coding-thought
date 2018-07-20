@@ -1,0 +1,17 @@
+p#notice
+  = notice
+p
+  strong
+    | User:
+  = @question.user
+p
+  strong
+    | Title:
+  = @question.title
+p
+  strong
+    | Content:
+  = @question.content
+= link_to 'Edit', edit_question_path(@question)
+|  | 
+= link_to 'Back', questions_path
