@@ -58,7 +58,8 @@ class QuestionsController < ApplicationController
       params.require(:question).permit(
         :user_id,
         :title,
-        :content
+        :content,
+        :mock_name
       )
     end
 end
