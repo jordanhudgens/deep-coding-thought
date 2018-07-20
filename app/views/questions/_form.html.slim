@@ -8,9 +8,10 @@
         - question.errors.full_messages.each do |message|
           li
             = message
-  .field
-    = form.label :user_id
-    = form.text_field :user_id
+  - if logged_in?(:admin)
+    .field
+      = form.label :mocked_name
+      = form.text_field :mocked_name
   .field
     = form.label :title
     = form.text_field :title
